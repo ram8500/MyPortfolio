@@ -226,3 +226,67 @@ a:hover {
 .mail {
   margin-right: 30px;
 }
+@media screen and (min-width:768px) and (max-width:1024px) {
+.wrap {
+  overflow: hidden;
+}
+.header nav ul{
+  display: none;
+}
+main {
+  width: 100%;
+}
+.greeting p {
+  top:59%;
+  left: 42%;
+  font-size: 4rem;
+}
+}
+@media screen and (max-width:670px) {
+  .wrap {
+    overflow: hidden;
+  }
+  .header nav ul{
+    display: none;
+  }
+  .greeting {
+    height: auto;
+  }
+  .greeting p {
+    top: -40%;
+    left: 9%;
+    font-size: 2rem;
+}
+.work-contents  {
+  padding: 0;
+}
+.work-img {
+  display: block;
+}
+.works {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 5rem auto;
+}
+.contact 
+.heading p {
+  width: 70%;
+  margin: 0 auto;
+}
+.skills{
+  width: 100%;
+}
+.footer-nav {
+  height: auto;
+  width: 100%;
+}
+.footer nav{
+  margin: 0 auto;
+}
+.footer nav ul {
+  display: inline-block;
+}
+footer li {
+  margin: 30px;
+}
+}
