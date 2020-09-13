@@ -250,7 +250,7 @@ main {
     display: none;
   }
   .greeting {
-    height: auto;
+    height: 656px;
   }
   .greeting p {
     top: -40%;
